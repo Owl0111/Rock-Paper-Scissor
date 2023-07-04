@@ -76,3 +76,25 @@ svg {
     justify-content: center;
     margin: 0 auto;
 }
+
+.reset {
+
+    margin: 0 auto;
+    font-family: "VT323", sans-serif;
+    font-size: 23px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 20PX;
+    transition: all 0.3s;
+
+}
+
+.reset:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
